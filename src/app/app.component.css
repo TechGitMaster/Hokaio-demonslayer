@@ -1,0 +1,1114 @@
+
+/* ________________________Font from ttf extension_________________________ */
+@font-face {
+    font-family: rye;
+    src: url(/assets/Rye-Regular.ttf);
+}
+
+@font-face {
+    font-family: roboto;
+    src: url(/assets/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: roboto_regular;
+    src: url(/assets/Roboto-Regular.ttf);
+}
+
+
+
+.landPage{
+    min-height:800px;
+    position:relative;
+    padding:0px;
+    background:url("/assets/landpage/pageLand.png") no-repeat center center fixed;
+    background-size:cover;
+}
+
+.shadowFinalpage{
+    min-height:100ch;
+    width:100%;
+    padding-bottom:20px;
+    padding-top:0px;
+    padding-left:0px;
+    padding-right:0px;
+    background:rgba(0, 0, 0, 0.394);
+}
+
+.containNavi{
+    padding:0px;
+    max-height:96px;
+    position:relative;
+}
+
+.leftNavi{
+    position:relative;
+    display:flex;
+}
+
+.naviContainer{
+    background:rgba(0, 0, 0, 0.68)
+}
+
+
+.divSC{
+    display: flex;
+    justify-content: center;
+    margin-top:30px;
+    margin-bottom: 20px;
+}
+
+.fDivSC{
+    display:flex;
+}
+
+.fluidUII{
+    width:70px;
+    height:70px;
+}
+
+.imgLogoDiv{
+    width:106px;
+    padding-top:5px;
+    padding-bottom:5px;
+    margin-right:10px;
+}
+
+.imgSL{
+    width:100%;
+    max-height:235px;
+    box-shadow: 0px 0px 5px black;
+    border-radius: 10px;
+    overflow: hidden;
+    position:relative;
+}
+
+.imgGCS{
+    width:100%;
+    max-height:335px;
+    object-fit: cover;
+}
+
+.objectiveSelection{
+    background:#AB8A44;border-radius:20px;display:flex;padding-top:7px;
+            padding-bottom:7px;padding-left:10px;padding-right:10px;overflow-x: auto;
+}
+
+.objectiveSelection::-webkit-scrollbar{
+    width:0px;
+    height:0px;
+}
+
+
+.imgSLMugen{
+    box-shadow: 0px 0px 5px black;
+    border-radius: 10px;
+    overflow: hidden;
+    max-height:335px;
+    position:relative;
+}
+
+.imgClGM{
+    width:100%;
+    max-height:335px;
+    object-fit: cover;
+}
+
+.imgClG{
+    width:100%;
+    max-height:235px;
+    object-fit: cover;
+}
+
+.nameDivS{
+    height:100%;
+    width:100%;
+    z-index: 1;
+    background:rgba(0, 0, 0, 0.156);
+    position:absolute;
+    top:0px;
+}
+
+.dmFDivs{
+    position: absolute;
+    bottom: 0;
+    padding-left: 13px;
+}
+
+.characterDiv{
+    box-shadow: 0px 5px 5px black;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    overflow: hidden;
+    margin-right:10px;
+    position: relative;
+}
+
+.div1navi{
+    width:100px;
+    height:200px;
+}
+
+.div2navi{
+    width:100px;
+    height:170px;
+}
+
+.div3navi{
+    width:100px;
+    height:190px;
+}
+
+.div4navi{
+    width:100px;
+    height:215px;
+}
+
+.textNaviDiv{
+    width:100%;
+    z-index:5;
+    position:absolute;
+    display: flex;
+    justify-content: center;
+    margin-bottom:5px;
+    bottom: 0;
+}
+
+
+.divImgR{
+    min-width:50px;
+    max-height:70px;
+    float:right;
+    margin-top:11px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.imgRLogo{
+    width:75px;
+    height:75px;
+    border-radius:50%;
+}
+
+.textDR{
+    height:75px;
+    display: flex;
+    align-items: center;
+    margin-right:10px;
+}
+
+
+
+
+
+
+
+.charactersDiv{
+    background:url("/assets/characters/preload-bg.jpg") no-repeat center center fixed;
+    background-size:cover;
+    position: relative;
+    padding:0px;
+    margin:0px;
+}
+
+.chracOn{
+    display: flex;
+    justify-content: center;
+    z-index:1;
+    position:relative;
+}
+
+.fiChracOn{
+    margin-top:45px;
+    margin-bottom:50px;
+}
+
+.c1p{
+    font-size:24px;
+    text-align: center;
+    font-weight: 500;
+    position:relative;
+    top:20px;
+}
+
+.c2p{
+    font-family:rye;
+    font-size:60px;
+    text-align:center;
+}
+
+.c3p{
+    font-size:16px;
+    text-align: center;
+    font-family:roboto_regular;
+    position:relative;
+    top:-10px;
+}
+
+.charactImageD{
+    z-index: 5;
+    width: 52%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.lineUP{
+    width:100%;
+    height:0px;
+    justify-content: center;
+    display: flex;
+    border-top:3px solid black;
+    position: relative;
+}
+
+
+
+.characHighlight{
+    width:40vw;
+    height:40vw;
+    background:rgb(19, 33, 45);
+    border-radius: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    box-shadow: 0px 0px 5px black;
+    z-index:10;
+}
+
+/*width:55%;
+    height:101%;*/
+.imgGF{
+    position: absolute;
+}
+
+.selectionC{
+    width:640px;
+    min-height:400px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    position: relative;
+    top:-200px;
+}
+
+.selectionFinalC{
+    width:100%;
+    display: flex;
+    position: relative;
+    top:-3px;
+}
+
+.divBordCharct{
+    width:90px;
+    height:150px;
+    position: relative;
+    top:-75px;
+}
+
+.divBordCharct2{
+    width:90px;
+    height:150px;
+    position: relative;
+    top:70px;
+}
+
+.imageC{
+    display: flex;
+    justify-content: center;
+}
+
+/*box-shadow: 0px 5px 10px rgba(64, 41, 196, 0.755);*/
+.imgCharacFAC{
+    border-radius:50%;
+    overflow: hidden;
+    transition: all ease-in-out 0.7s;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.694);
+}
+
+.videoObjective{
+    height:300px;
+    width:60%;
+    border-radius:20px;
+    box-shadow: 0px 0px 5px black;
+    margin-bottom:20px;
+}
+
+.demonFC{
+    background:url('/assets/Demon/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    overflow: hidden;
+    position:relative;
+}
+
+.demonsP{
+    font-family: rye;
+    font-size:28px;
+    padding-top:10px;
+    padding-right:10px;
+    text-shadow:0px 5px black;
+    color:whitesmoke;
+    float:right;
+}
+
+.becomeDP{
+    font-family: rye;
+    font-size:35px;
+    padding:10px;
+    margin-top:10px;
+    text-shadow:0px 5px black;
+    color:whitesmoke;
+
+}
+
+.muzanTr{
+    padding-left:10px;
+    font-family: roboto_regular;
+    font-size:15x;
+    color:rgb(236, 236, 236);
+}
+
+/*
+max-width:140px;
+    max-height:430px;
+    */
+
+.imgsrcDe{
+    max-width:100%;
+    max-height:500px;
+    position: relative;
+}
+
+.learnMorBtn{
+    margin-top:20px;
+    background:#468745;
+    border:none;
+    box-shadow:0px 0px 5px black;
+    border-radius: 20px;
+    padding-left:5%;
+    padding-right:5%;
+    padding-bottom:2%;
+    padding-top:2%;
+    font-size:18px;
+    font-family:roboto_regular;
+}
+
+.endDiv{
+    background:#0B0C2A;
+    padding:15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgLogoHo{
+    width:80px;
+    height:80px;
+    border-radius:50%;
+    box-shadow: 0px 0px 5px black;
+    margin-bottom:5px;
+}
+
+.pHokaio{
+    color:whitesmoke;
+    font-size:18px;
+    text-align: center;
+}
+
+
+.titleC{
+    font-family:roboto_regular;font-size:48px;color:white;
+}
+
+.titleJa{
+    font-family:roboto_regular;font-size:30px;color:white;
+}
+
+.titleMa{
+    font-family:roboto_regular;font-size:20px;color:white;
+}
+
+
+.btnMoreInfo{
+    margin-top:20px;
+    background:#468745;
+    border:none;
+    box-shadow:0px 0px 5px black;
+    border-radius: 20px;
+    padding-left:10%;
+    padding-right:10%;
+    padding-bottom:3%;
+    padding-top:3%;
+    font-size:20px;font-family:roboto_regular;
+}
+
+.seasionT{
+    font-size:17px;font-family: roboto;color:white;text-shadow: 0px 2px black;
+}
+
+
+.seasonTHe{
+    font-size:30px;font-family: roboto;color:white;
+}
+
+.maxWDisplay{
+    display:none;
+}
+
+.nameCharacts{
+    font-family:rye;font-size:36px;
+}
+
+.informationCharacts{
+    font-family:roboto_regular;font-size:16px;
+}
+
+
+.textNameClicked{
+    display:flex;justify-content: center;align-items: center;
+    border-radius:10px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.517);
+    margin:5px;
+    padding:10px;
+}
+
+.elementP1{
+    text-align: center;font-family:rye;font-size:40px;
+}
+
+
+.elementP2{
+    max-width:550px;font-size:16px;text-align: center;font-family:roboto_regular;position:relative;top:0px;
+}
+
+
+.elementDivS{
+    display:flex;justify-content:center;align-items:center;background:rgb(230, 230, 230);
+    padding:10px;border-radius: 10px;box-shadow: 0px 1px 3px rgb(0 0 0 / 52%);cursor:pointer;
+}
+
+
+.infoElement{
+    text-align: center;font-family: roboto_regular;font-size:16px;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+.pElementOthers{
+    font-family:roboto;font-size:20px;
+}
+
+
+.objectiveTitleP{
+    font-family: rye;font-size:35px;text-shadow: 0px 5px black;color:whitesmoke
+}
+
+.imgObjective{
+    box-shadow:0px 2px 5px rgba(0, 0, 0, 0.782);min-width:69px;height:69px;border-radius:50%;
+}
+
+.nameSelectOb{
+    font-family: roboto;font-size:30px;color:whitesmoke;margin-top:20px;
+}
+
+.obTOB{
+    font-family: roboto;font-size:20px;color:whitesmoke;
+}
+
+.infoObSelected{
+    font-family: roboto_regular;font-size:18px;color:whitesmoke;margin-top:10px;
+}
+
+
+
+
+.demonsDivContain{
+    z-index:5;width:100%;background:rgba(0, 0, 0, 0.279);position: relative;margin-top:15px;
+    margin-bottom:15px;
+}
+
+
+
+
+
+
+
+
+/*__________________________________@MIDEA________________________________________*/
+
+@media (min-width: 1269px){
+    .charactersDivA{
+        display:flex;
+        position: relative;
+    }
+
+    .charactFD{
+        position:relative;
+        top:-10px;
+    }
+
+    .firstInfoCharactC{
+        position: relative;top:-130px;
+    }
+}
+
+@media (max-width:1400px){
+    .firstInfoCharactC{
+        position: relative;top:-100px;
+    }
+}
+
+@media (max-width:1268px){
+    .containNavi{
+        padding:0px;
+        max-height:96px;
+        margin:0px;
+        min-width:100%;
+        position:relative;
+    }
+    .leftNavi{
+        position:relative;
+        display:flex;
+        align-items: center;
+    }
+    .characterDiv{
+        box-shadow: 0px 5px 5px black;
+        border-radius:10px;
+        overflow: hidden;
+        margin-right:10px;
+    }    
+    .textNaviDiv{
+        width:100%;
+        height:100%;
+        z-index:5;
+        position:absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom:5px;
+        position:absolute;
+        top:0px;
+    }
+    .imgnaviF{
+        display:none;
+        position:relative;
+    }
+    .div1navi{
+        width:100px;
+        height:45px;
+    }
+    
+    .div2navi{
+        width:100px;
+        height:45px;
+    }
+    
+    .div3navi{
+        width:100px;
+        height:45px;
+    }
+    
+    .div4navi{
+        width:100px;
+        height:45px;
+    }
+
+    .containHeader{
+        min-width:100%;
+        padding-left:40px;
+        padding-right:40px;
+        display:flex;
+        justify-content: center;
+        position: relative;
+    }
+
+    .titleC{
+        font-family:roboto_regular;
+        font-size:40px;
+        color:white;
+    }
+    .titleJa{
+        font-family:roboto_regular;
+        font-size:22px;
+        color:white;
+    }
+    .titleMa{
+        font-family:roboto_regular;font-size:20px;color:white;
+    }
+    
+    .charactImageD{
+        z-index: 5;
+        min-width: 100%;
+        height:250px;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+
+    .charactersDivA{
+        position: relative;
+    }
+
+    .charactFD{
+        position:relative;
+    }
+
+    .highligDiv{
+        display: flex;
+        justify-content: center;
+        padding-top:100px;
+    }
+
+    .characHighlight{
+        min-width:50vw;
+        min-height:50vw;
+        background:rgb(19, 33, 45);
+        border-radius: 100%;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        box-shadow: 0px 0px 5px black;
+        z-index:10;
+    }
+
+    .imgGF{
+        min-width:70%;
+        max-height:50%;
+        position: absolute;
+    }
+
+    .highligDiv{
+        display: flex;
+        justify-content: center;
+        padding-top:0px;
+    }
+
+    .nameCharactSh{
+        text-align: center;font-family: roboto_regular;font-size:23px;
+        margin-top:25px;
+        margin-bottom:60px;
+    }
+
+    .secondaryInfoC{
+        margin-top:70px;margin-bottom:70px;
+    }
+
+    .containerElements{
+        min-width:100%;
+        padding-left:15px;
+        padding-right:15px;
+    }
+}
+
+@media (max-width:1000px){
+        
+    .characHighlight{
+        min-width:70vw;
+        min-height:70vw;
+        background:rgb(19, 33, 45);
+        border-radius: 100%;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        box-shadow: 0px 0px 5px black;
+        z-index:10;
+    }
+
+    .imgGF{
+        min-width:80%;
+        max-height:50%;
+        position: absolute;
+    }
+
+
+    .divImgR{
+        display:none;
+    }
+    
+    .divCJAMA{
+        display:flex;justify-content: center;
+    }
+
+    .titleC{
+        font-family:roboto_regular;
+        font-size:40px;
+        text-align: center;
+        color:white;
+    }
+    .titleJa{
+        font-family:roboto_regular;
+        font-size:20px;
+        color:white;
+    }
+    .titleMa{
+        font-family:roboto_regular;font-size:16px;color:white;
+    }
+
+    .btnMoreInfo{
+        margin-top:20px;
+        background:#468745;
+        border:none;
+        box-shadow:0px 0px 5px black;
+        border-radius: 20px;
+        padding-left:5%;
+        padding-right:5%;
+        padding-bottom:1%;
+        padding-top:1%;
+        font-size:20px;font-family:roboto_regular;
+    }
+
+
+    .c1p{
+        font-size:24px;
+        text-align: center;
+        font-weight: 500;
+        position:relative;
+        top:20px;
+    }
+    
+    .c2p{
+        font-family:rye;
+        font-size:55px;
+        text-align:center;
+    }
+    
+    .c3p{
+        font-size:15px;
+        text-align: center;
+        font-family:roboto_regular;
+        position:relative;
+        top:-10px;
+    }
+
+    .objectiveContainer{
+        min-width:100%;
+        padding-left:20px;
+        padding-right:20px;
+    }
+
+    .demonsDivContain{
+        min-width:100%;z-index:5;width:100%;background:rgba(0, 0, 0, 0.694);position: relative;margin-top:10px;
+        margin-bottom:10px;
+    }
+
+    .demonFC{
+        background:url('/assets/Demon/background.jpg') no-repeat center center fixed;
+        background-size: cover;
+        padding-right:10px;
+        padding-left:10px;
+        position:relative;
+    }
+    
+}
+
+@media (max-width:585px){
+    .shadowFinalpage{
+        max-height:100%;
+        width:100%;
+        padding-bottom:20px;
+        padding-top:0px;
+        padding-left:0px;
+        padding-right:0px;
+        background:rgba(0, 0, 0, 0.394);
+    }
+    .landPage{
+        max-height:100%;
+        position:relative;
+        padding:0px;
+        background:url("/assets/landpage/pageLand.png") no-repeat center center fixed;
+        background-size:cover;
+    }
+}
+
+@media (max-width:558px){
+    .imgGCS{
+        width:100%;
+        min-height:200px;
+        object-fit: cover;
+    }    
+    .seasionT{
+        font-size:13px;font-family: roboto;color:white;text-shadow: 0px 2px black;
+    }
+    .containHeader{
+        padding-left:15px;
+        padding-right:15px;
+        min-width:100%;
+        display:flex;
+        justify-content: center;
+        position: relative;
+    }
+    .seasonTHe{
+        font-size:22px;font-family: roboto;color:white;
+    }   
+
+    .divSC{
+        display: flex;
+        justify-content: center;
+        margin-top:40px;
+    }
+  
+    .fluidUII{
+        width:60px;
+        height:60px;
+    }
+
+    .btnMoreInfo{
+        margin-top:20px;
+        background:#468745;
+        border:none;
+        box-shadow:0px 0px 5px black;
+        border-radius: 20px;
+        padding-left:5%;
+        padding-right:5%;
+        padding-bottom:2%;
+        padding-top:2%;
+        font-size:17px;
+        font-family:roboto_regular;
+    }
+
+    .leftNaviClo{
+        display:none;
+    }
+
+    .maxWDisplay{
+        display:flex;
+        justify-content: center;
+        padding-top:10px;
+        padding-bottom:10px;
+        color:white;
+        font-family: rye;
+        font-size:20px;
+    }
+    .titleC{
+        font-family:roboto_regular;
+        font-size:33px;
+        text-align: center;
+        color:white;
+    }
+
+    .characHighlight{
+        width:90vw;
+        height:90vw;
+        background:rgb(19, 33, 45);
+        border-radius: 100%;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        box-shadow: 0px 0px 5px black;
+        z-index:10;
+    }
+
+    .imgGF{
+        min-width:100%;
+        max-height:40%;
+    }
+
+    .nameCharactSh{
+        text-align: center;font-family: roboto_regular;font-size:15px;
+        margin-top:25px;
+        margin-bottom:10px;
+    }
+
+    .elementP1{
+        text-align: center;font-family:rye;font-size:28px;
+    }
+
+    .nameCharacts{
+        font-family:rye;font-size:25px;
+    }
+
+    .imgLogoHo{
+        width:70px;
+        height:70px;
+        border-radius:50%;
+        box-shadow: 0px 0px 5px black;
+        margin-bottom:5px;
+    }
+
+    .pHokaio{
+        color:whitesmoke;
+        font-size:15px;
+        text-align: center;
+    }
+}
+
+
+@media (max-width:700px){
+
+    .c1p{
+        font-size:22px;
+        text-align: center;
+        font-weight: 500;
+    }
+    
+    .c2p{
+        font-family:rye;
+        font-size:40px;
+        text-align:center;
+        margin-top:10px;
+        margin-bottom:10px;
+    }
+    
+    .c3p{
+        font-size:14px;
+        text-align: center;
+        font-family:roboto_regular;
+        padding-left:10px;padding-right:10px;
+    }
+
+    .nameCharacts{
+        font-family:rye;font-size:30px;
+    }
+
+    .informationCharacts{
+        font-family:roboto_regular;font-size:15px;
+    }
+
+    .nameCharactSh{
+        text-align: center;font-family: roboto_regular;font-size:20px;
+        margin-top:25px;
+        margin-bottom:10px;
+    }
+
+    .infoElement{
+        text-align: center;font-family: roboto_regular;font-size:15px;
+        margin-top:10px;
+        margin-bottom:10px;
+    }
+
+    .elementP2{
+        max-width:550px;font-size:14px;text-align: center;font-family:roboto_regular;position:relative;top:0px;
+    }
+
+    .pElementOthers{
+        font-family:roboto;font-size:15px;
+    }
+
+    .objectiveTitleP{
+        font-family: rye;font-size:33px;text-shadow: 0px 5px black;color:whitesmoke;
+        text-align:center;
+    }
+
+    .imgObjective{
+        box-shadow:0px 2px 5px rgba(0, 0, 0, 0.782);min-width:55px;height:55px;border-radius:50%;
+    }
+    
+    .objectiveSelection{
+        background:#AB8A44;border-radius:20px;display:flex;padding-top:7px;
+                padding-bottom:7px;padding-left:10px;padding-right:10px;overflow-x: auto;
+                margin-top:50px;margin-bottom:30px;
+    }
+
+    .becomeDP{
+        font-family: rye;
+        font-size:30px;
+        padding:10px;
+        margin-top:10px;
+        text-shadow:0px 5px black;
+        color:whitesmoke;
+    }
+
+    .muzanTr{
+        padding-left:10px;
+        font-family: roboto_regular;
+        font-size:14px;
+        color:rgb(236, 236, 236);
+    }
+
+    .demonsP{
+        font-family: rye;
+        font-size:24px;
+        padding-top:10px;
+        padding-right:10px;
+        text-shadow:0px 5px black;
+        color:whitesmoke;
+        float:right;
+    }
+
+    .learnMorBtn{
+        margin-top:5px;
+        margin-bottom:5px;
+        background:#468745;
+        border:none;
+        box-shadow:0px 0px 5px black;
+        border-radius: 20px;
+        padding-left:5%;
+        padding-right:5%;
+        padding-bottom:2%;
+        padding-top:2%;
+        font-size:15px;
+        font-family:roboto_regular;
+    }
+
+
+}
+
+@media (max-width:991px){
+    .videoObjective{
+        height:300px;
+        width:100%;
+        border-radius:20px;
+        box-shadow: 0px 0px 5px black;
+    }
+
+    .objectiveContainer{
+        min-width:100%;
+        padding-left:20px;
+        padding-right:20px;
+        padding-bottom:50px;
+    }
+}
+
+@media (max-width:770px){
+
+    .elementDivsN{
+        padding-bottom:100px;
+    }
+
+    .otherRIE{
+        max-width:90px;
+        max-height:90px;
+    }
+
+    .nameSelectOb{
+        font-family: roboto;font-size:26px;color:whitesmoke;margin-top:20px;
+    }
+
+    .obTOB{
+        font-family: roboto;font-size:18px;color:whitesmoke;
+    }
+
+    .infoObSelected{
+        font-family: roboto_regular;font-size:15px;color:whitesmoke;margin-top:10px;
+    }
+}
+
+@media (max-width: 1248px){
+    .charactFD{
+        padding-bottom: 30px;
+    }
+}
+
+
+
+@media (max-width: 648px){
+    .charactImageD{
+        z-index: 5;
+        min-width: 100%;
+        height:110px;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+
+    .secondaryInfoC{
+        margin-top:40px;margin-bottom:30px;
+    }
+
+    .elementP1{
+        text-align: center;font-family:rye;font-size:33px;
+    }
+}
