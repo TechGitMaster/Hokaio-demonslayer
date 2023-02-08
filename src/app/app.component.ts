@@ -98,6 +98,7 @@ export class AppComponent implements OnInit, AfterViewInit {
     this.numHandleCon = 0;
     this.objectiveNumCon = 0;
 
+    
     this.arrayElements = new Array<Array<any>>(
     ['/assets/elements/flameF.png', 'Flame', 'Flame Style', "Flame Breathing is a Breathing Style that mimics flames and replicates it with the user's movements, techniques and abilities. Most, if not all, known techniques and forms involve extremely powerful singular strikes who burn their opponents, initiated from a high stance. Users of Flame Breathing also visualize themselves seemingly creating and manipulating fire when unleashing its techniques.", 
       ['Shinjuro Rengoku', 'Kyojuro Rengoku', 'Mitsuri Kanroji (Formerly)'], [['/assets/elements/flame_love.png', 'Love']]], 
