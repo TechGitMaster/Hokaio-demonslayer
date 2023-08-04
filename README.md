@@ -2,7 +2,6 @@
 
 ![ReduceImageSize net_37%_6594](https://github.com/TechGitMaster/Hokaio-demonslayer/assets/52535645/a73e4566-08b7-4f07-9779-20760303e17b)
 
-Demon Slayer
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.7.
 
