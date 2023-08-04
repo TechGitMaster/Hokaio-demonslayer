@@ -1,6 +1,7 @@
 # HokaioDemonslayer
 
 ![ReduceImageSize net_37%_6594](https://github.com/TechGitMaster/Hokaio-demonslayer/assets/52535645/a73e4566-08b7-4f07-9779-20760303e17b)
+![ReduceImageSize net_41%_1169](https://github.com/TechGitMaster/Hokaio-demonslayer/assets/52535645/19195333-2d9b-4bfe-b51d-59ca31496b53)
 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.7.
